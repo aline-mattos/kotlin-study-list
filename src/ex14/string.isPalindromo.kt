@@ -10,7 +10,6 @@ fun String.isPalindrome(): Boolean {
 }
 
 fun main() {
-    // Exemplos de uso da função de extensão
     val test1 = "hello"
     val test2 = "Ana"
     val test3 = "Socorram me subi no onibus em Marrocos"
