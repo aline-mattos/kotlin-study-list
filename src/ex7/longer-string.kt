@@ -1,5 +1,7 @@
 package ex7
 
+//Create a function that takes a list of strings and returns the longest string in the list.
+
 fun findLongerString(list: List<String>): String? {
     if (list.isEmpty()){
         return null

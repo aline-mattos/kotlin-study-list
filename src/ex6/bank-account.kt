@@ -1,6 +1,9 @@
 package ex6
 
-
+//Create a class "ContaBancaria" with the attributes "saldo" and "limite".
+// Add a method called "saque" that takes a value as a parameter and subtracts it from the account balance.
+// If the withdrawal amount (saque) is greater than the account balance (saldo),
+// the method must throw an exception with the message "Saldo insuficiente".
 
 class ContaBancaria(var saldo: Double, var limite: Double) {
 

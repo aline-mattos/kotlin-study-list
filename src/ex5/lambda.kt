@@ -1,5 +1,7 @@
 package ex5
 
+//Implement a lambda function that returns the greater of two numbers.
+
 val maxNumber: (Int, Int) -> Int = { a, b -> if (a > b) a else b }
 
 fun main() {

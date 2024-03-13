@@ -1,5 +1,7 @@
 package ex2
 
+//Create a function that takes an array of integers and returns the largest number.
+
 fun higherNumber(array: IntArray): Int {
     var higherNumber = array[0]
 

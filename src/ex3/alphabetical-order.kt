@@ -1,5 +1,8 @@
 package ex3
 
+//Create a class called "Person" with attributes "name" and "age".
+// Then create a list of "Person" objects and sort the list alphabetically by the "name" attribute.
+
 class Person(val name: String, val age: Int)
 
 fun main(){

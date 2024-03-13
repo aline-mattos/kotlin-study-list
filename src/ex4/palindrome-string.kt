@@ -1,5 +1,9 @@
 package ex4
 
+//Create a function that takes a string
+// and returns true if the string is a palindrome
+// (that is, it can be read the same way backwards).
+
 fun isPalindrome(str: String): Boolean {
     val noSpaces = str.replace("\\s".toRegex(), "").lowercase()
     return noSpaces == noSpaces.reversed()

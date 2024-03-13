@@ -1,5 +1,8 @@
 package ex1
 
+// Create a function that takes an integer and returns true if
+// the number is even and false otherwise.
+
 fun isEven(number: Int): Boolean{
     return number % 2 == 0
 }
